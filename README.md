@@ -5,7 +5,7 @@ For example, you can upload your key to YubiKey and generate signatures.
 
 ## How it works
 
-It's using [`pkcs15-crypto`](https://linux.die.net/man/1/pkcs15-crypt) to process signatures. If it's not installed, you will get an error. 
+It's using [`pkcs15-crypt`](https://linux.die.net/man/1/pkcs15-crypt) to process signatures. If it's not installed, you will get an error. 
 
 ## Example
 
