@@ -15,7 +15,7 @@ const signer = require('pkcs15-smartcard-sign');
 // Basic usage:
 //  - SHA-256
 //  - Read key with ID 02
-//  - Promot for PIN
+//  - Prompt for PIN
 signer.sign({
     data: Buffer.from('something')
 }).then(signature => {
